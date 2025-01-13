@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/offBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OFF" />
+
+        <Button
+            android:id="@+id/twinkleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Twinkle" />
+
+        <Button
+            android:id="@+id/jinxBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jinx" />
+
+        <Button
+            android:id="@+id/transitionBreakBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transition with Break" />
+
+        <Button
+            android:id="@+id/bluebBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BlueB" />
+
+        <Button
+            android:id="@+id/rainbowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rainbow" />
+
+        <Button
+            android:id="@+id/beatrBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BeatR" />
+
+        <Button
+            android:id="@+id/runredBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Run Red" />
+
+        <Button
+            android:id="@+id/rawNoiseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Noise" />
+
+        <Button
+            android:id="@+id/movingRainbowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moving Rainbow" />
+
+        <Button
+            android:id="@+id/waveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wave" />
+
+        <Button
+            android:id="@+id/blightbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BlightB" />
+    </LinearLayout>
+</ScrollView>

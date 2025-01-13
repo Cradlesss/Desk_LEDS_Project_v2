@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desk LEDs Controller"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Device Selection Button -->
+    <Button
+        android:id="@+id/selectDeviceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Select Device"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/headerTitle"
+        android:layout_marginHorizontal="16dp" />
+
+    <!-- Status and Progress -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Connected"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_below="@id/selectDeviceBtn"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <!-- Navigation Buttons -->
+    <Button
+        android:id="@+id/goToAnimations"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Go to Animations"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/progressBar"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>
